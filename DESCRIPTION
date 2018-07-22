@@ -1,0 +1,20 @@
+Package: shinyEditable
+Type: Package
+Title: In-place Editing for Shiny
+Version: 0.1.0
+Authors@R: person("Yang", "Tang", email = "tang_yang@outlook.com",
+  role = c("aut", "cre"))
+Maintainer: Yang Tang <tang_yang@outlook.com>
+Description: An extension to shiny that build in-place editable field.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    shiny,
+    htmltools,
+    htmlwidgets,
+    jsonlite
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1
+URL: https://github.com/Yang-Tang/shinyEditable
+BugReports: https://github.com/Yang-Tang/shinyEditable/issues
